@@ -339,4 +339,14 @@ return array(
     "logged_in"                     => "Logget Ind",
     "revoke_session_desc"           => "Fjernelse af en session vil logge enheden ud af operatør panelet. Det vil også fjerne alle Husk Mig tokens for andre enheder.",
 
+    /**
+     * 4.0.0
+     */
+    "verify_phone_number"           => "Verify Phone Number",
+    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
+    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
+    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
+    "verify_phone_code_error"       => "Code could not be verified.",
+    "logged_in_as"                  => "Logged in as :name",
+
 );
