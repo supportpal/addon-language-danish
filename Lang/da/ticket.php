@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Kunne ikke finde ticket med ticket number og den indtastede email addresse.",
 
-    "channel_deactivated"       => "Ticket kanalen er deaktiveret, et svar kan ikke postes.",
-
     "type_in_tags"              => "Indtast tags",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Vælg de standard svar muligheder der skal være tilgængelige ved åbning eller besvarelse af en ticket. ':reply_option' muligheden vil være ticket afhængig baseret på ':department_option' afdelings indstillingen.",
     "associate_response_tag"    => "Associater standardsvar med et tag...",
     "canned_response_tags_desc" => "Tilføj tags som kan hjælpe med at finde et standard svar når der sendes ticket besvarelser.",
-    "loading_tags"              => "Indlæser tags",
     "append_ip_address"         => "Tilføj IP Address",
     "append_ip_address_desc"    => "Tilføj IP addressen for en bruger til deres beskeder når de åbner eller besvarer ticket fra frontenden.",
     "unassign_operator"         => "Fjern Operatør",
@@ -494,11 +491,6 @@ return array(
     "belonging_to"              => "(Tilhørende :name)",
     "block_user"                => "Bloker Bruger",
     "merge_tickets"             => "Flet Tickets",
-
-    /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "Ticket kanal kontoen er blevet deaktiveret eller fjernet, et svar kan ikke tilføjes.",
 
     /*
      * 2.6.0

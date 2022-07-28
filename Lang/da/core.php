@@ -116,7 +116,6 @@ return array(
 
     // Plugins
     "plugins"                   => "Tilføjelse|Tilføjelser",
-    "installed_plugins"         => "Installerede Tilføjelser",
     "visit_plugin"              => "Besøg siden med tilføjelser",
 
     // Messages
@@ -405,7 +404,6 @@ return array(
     "heading5"                  => "Overskrift 5",
     "heading6"                  => "Overskrift 6",
     "upload"                    => "Upload",
-    "upload_label"              => "Drop filer her eller klik for at uploade",
     "more_formatting"           => "Mere Formattering",
     "clearformat"               => "Ryd Formattering",
     "bold"                      => "Fed",
@@ -452,15 +450,6 @@ return array(
     "ticket_desc2"              => "Ticket griddet kan sorteres som du ønsker og filtreres efter behov.",
     "zip_extension_required"    => "Zip PHP udvidelsen er ikke installeret. Installer den og prøv igen.",
     "zip_file_not_downloaded"   => "Zip filen kunne ikke downloades. Verificer at du er istand til at åbne: :url",
-    "plugin_basic_info"         => "Tilføj venligst den basale information om dit plugin.",
-    "plugin_author_name"        => "Forfatterens navn",
-    "plugin_author_uri"         => "Forfatterens URI (link til din hjemmeside)",
-    "plugin_vendor_name"        => "Firma navn (navnet på dit firma, kan sættes tilsvarende forfatter)",
-    "plugin_name"               => "Plugin navn",
-    "plugin_description"        => "Plugin beskrivelse",
-    "plugin_already_exists"     => "Plugin eksisterer allerede!",
-    "plugin_creating"           => "Opretter plugin...",
-    "plugin_ready"              => "Dit plugin er klar i :directory! Byg noget fantastisk.",
 
     /*
      * 3.3.0
@@ -483,9 +472,6 @@ return array(
     "brand_name_desc"           => "Dit Brandnavn anvendes til al korrespondence med brugere.",
     "supportpal_announcements"  => "SupportPal Annonceringer",
     "add_selectize"             => "Tilføj <strong>:item</strong>...",
-    "plugin_author_uri_short"   => "Forfatter URI",
-    "plugin_vendor_name_short"  => "Udvikler Navn",
-    "open_link_in_new_tab"      => "Åbn link i ny fane",
     "general_settings"          => "Konfigurer generelle indstillinger",
     "configure_brand"           => "Konfigurer brand",
     "configure_department"      => "Konfigurer afdeling",

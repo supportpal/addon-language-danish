@@ -62,12 +62,6 @@ return array(
     "tag"               => "Administrer Tags",
 
     /*
-     * 2.0.2
-     */
-    // Core
-    "plugin"            => "Vis Plugins",
-
-    /*
      * 2.0.3
      */
     // User
