@@ -542,7 +542,7 @@ return array(
     /*
      * 4.0.0
      */
-    "on_behalf_of"              => "Created on behalf of",
-    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+    "on_behalf_of"              => "Oprettet på vegne af",
+    "reply_canned_be_posted"    => "Det er i øjeblikket ikke muligt at besvare denne ticket; kanalen eller kanal kontoen kan være deaktiveret.",
 
 );

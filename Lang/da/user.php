@@ -342,11 +342,11 @@ return array(
     /**
      * 4.0.0
      */
-    "verify_phone_number"           => "Verify Phone Number",
-    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
-    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
-    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
-    "verify_phone_code_error"       => "Code could not be verified.",
-    "logged_in_as"                  => "Logged in as :name",
+    "verify_phone_number"           => "Verificer Telefon Nummer",
+    "verify_phone_method"           => "Vælg hvilken metode du ønsker at verificere dit telefon nummer med.",
+    "verify_phone_code_sent"        => "En verifikations kode er blevet sendt til dit telefonnummer, indtast venligst koden nedenfor.",
+    "verify_phone_code_send_error"  => "En fejl opstod ved afsendelse af verifikationskoden. Forsøg venligst senere.",
+    "verify_phone_code_error"       => "Koden kunne ikke verificeres.",
+    "logged_in_as"                  => "Logget ind som :name",
 
 );

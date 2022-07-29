@@ -46,6 +46,6 @@ return array(
     /*
      * 4.0.0
      */
-    "unlicensed"        => "Unlicensed",
+    "unlicensed"        => "Ulicenseret",
 
 );

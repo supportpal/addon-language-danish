@@ -111,5 +111,5 @@ return array(
     /*
      * 4.0.0
      */
-    "last_message_content_exc_notes"    => "Last message content (excluding notes)",
+    "last_message_content_exc_notes"    => "Sidste besked indhold (eksklusiv noter)",
 );

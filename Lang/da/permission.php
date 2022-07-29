@@ -122,7 +122,7 @@ return array(
     /*
      * 4.0.0
      */
-    "addon"             => "View and Manage Add-ons",
-    "system_health"     => "View System Health",
+    "addon"             => "Vis og Håndter Tilføjelser",
+    "system_health"     => "Vis System Helbred",
 
 );

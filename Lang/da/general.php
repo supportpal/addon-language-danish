@@ -402,17 +402,17 @@ return array(
     /*
      * 4.0.0
      */
-    "install"                   => "Install",
-    "installing"                => "Installing...",
-    "updating"                  => "Updating...",
-    "cancelling"                => "Cancelling...",
+    "install"                   => "Installer",
+    "installing"                => "Installerer...",
+    "updating"                  => "Opdaterer...",
+    "cancelling"                => "Annullerer...",
     "ok"                        => "OK",
-    "mark_as_verified"          => "Mark as Verified",
-    "not_verified"              => "Not Verified",
-    "free"                      => "Free",
-    "commercial"                => "Commercial",
-    "purchase"                  => "Purchase",
-    "more_information"          => "More Information",
-    "details"                   => "Details",
+    "mark_as_verified"          => "Marker som Bekræftet",
+    "not_verified"              => "Ikke Bekræftet",
+    "free"                      => "Gratis",
+    "commercial"                => "Kommerciel",
+    "purchase"                  => "Køb",
+    "more_information"          => "Mere Information",
+    "details"                   => "Detaljer",
 
 );
