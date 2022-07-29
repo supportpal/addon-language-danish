@@ -590,4 +590,5 @@ return array(
     "alternative_description"   => "Alternativ beskrivelse",
     "browse_image"              => "Browse efter et billede",
     "drop_image"                => "Drop et billede her",
+
 );
