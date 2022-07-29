@@ -539,4 +539,10 @@ return array(
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets og svar sendt via API.",
 
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Oprettet på vegne af",
+    "reply_canned_be_posted"    => "Det er i øjeblikket ikke muligt at besvare denne ticket; kanalen eller kanal kontoen kan være deaktiveret.",
+
 );

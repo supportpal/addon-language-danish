@@ -119,4 +119,10 @@ return array(
      */
     "background_jobs"   => "Vis Baggrunds Jobs",
 
+    /*
+     * 4.0.0
+     */
+    "addon"             => "Vis og Håndter Tilføjelser",
+    "system_health"     => "Vis System Helbred",
+
 );

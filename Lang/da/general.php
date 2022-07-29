@@ -399,4 +399,20 @@ return array(
      */
     "download_all"              => "Download Alle",
 
+    /*
+     * 4.0.0
+     */
+    "install"                   => "Installer",
+    "installing"                => "Installerer...",
+    "updating"                  => "Opdaterer...",
+    "cancelling"                => "Annullerer...",
+    "ok"                        => "OK",
+    "mark_as_verified"          => "Marker som Bekræftet",
+    "not_verified"              => "Ikke Bekræftet",
+    "free"                      => "Gratis",
+    "commercial"                => "Kommerciel",
+    "purchase"                  => "Køb",
+    "more_information"          => "Mere Information",
+    "details"                   => "Detaljer",
+
 );
