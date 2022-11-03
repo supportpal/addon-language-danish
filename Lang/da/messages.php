@@ -154,4 +154,10 @@ return array(
     "popup_blocked"         => "Din browser blokerer popup vinduer. Aktiver popup vinduer og videresendelser for denne hjemmeside for anvendelse af forhåndsvisning.",
     "error_editing_message" => "Der opstod en fejl i forsøget op at redigere denne besked.",
 
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
 );

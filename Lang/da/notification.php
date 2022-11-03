@@ -24,4 +24,10 @@ return array(
      */
     "private_message_text"  => ":name har sendt dig en ny <a href=':route'>privat besked</a>.",
 
+    /*
+     * 4.2.0
+     */
+    "new_mention"           => "New Mention",
+    "new_mention_text"      => ":name mentioned you in ticket #<a href=':route'>:number</a>.",
+
 );
