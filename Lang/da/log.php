@@ -114,7 +114,6 @@ return array(
      */
     "ticket_brand_disabled_reply"       => "Besvarelse kunne ikke blive tilføjet på grund af ticket tilhører et deaktiveret brand #:rel.",
     "personal_signatures_updated"       => "Opdaterede personlig signatur.",
-    "operator_signatures_updated"       => "Opdaterede :rel's signatur.",
     "check_email_failed"                => "Fejl: Fejlede download af email fra konto :old_value: ':rel'.",
     "ticket_added_cc"                   => "Email(s) :new_value tilføjet til CC adresse liste for ticket #:rel.",
     "ticket_removed_cc"                 => "Email(s) :old_value fjernet fra CC adresse liste for ticket #:rel.",
@@ -202,5 +201,16 @@ return array(
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Neutralt vurderet artikel :rel.",
+
+    /*
+     * 4.1.0
+     */
+    "user_merged"                       => "User :old_value merged into user :rel.",
+    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+
+    /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
 
 );

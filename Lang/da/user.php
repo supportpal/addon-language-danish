@@ -204,11 +204,6 @@ return array(
     "op_settings_individual_dept"   => "Tildeles individuelt:",
     "op_settings_individual_dept_desc" => "Disse afdelinger er en tilføjelse til de afdelinger operatøren er tildelt til via deres grupper ovenfor.",
     "also_registered_other_brand"   => "Brugerne er også registreret i brandet :brands.|Denne bruger er også registreret i følgende brands :brands.",
-    "signature"                     => "Signatur|Signaturer",
-    "signature_desc"                => "Opret personlige ticket signaturer, med mulighed for at tilpasse baseret på en tickets brand eller afdeling. Standard signatures anvendes når en signatur for en specifik afdeling og eller brand ikke kan findes.",
-    "operator_signature"            => "Operatør Signatur|Operatør Signaturer",
-    "ticket_signature_desc"         => "Definer operatørens standard ticket signatur.",
-    "operator_signature_desc"       => "Yderligere signaturer for specifikke afdelinger og eller brands kan defineres i <a href=':route' target='_blank'>Operatør Signaturer</a> sektionen.",
     "view_organisation"             => "Vis Organisation",
     "new_owner"                     => "Ny Ejer",
     "operator_role"                 => "Operatør Rolle|Operatør Roller",
@@ -339,7 +334,7 @@ return array(
     "logged_in"                     => "Logget Ind",
     "revoke_session_desc"           => "Fjernelse af en session vil logge enheden ud af operatør panelet. Det vil også fjerne alle Husk Mig tokens for andre enheder.",
 
-    /**
+    /*
      * 4.0.0
      */
     "verify_phone_number"           => "Verificer Telefon Nummer",
@@ -348,5 +343,23 @@ return array(
     "verify_phone_code_send_error"  => "En fejl opstod ved afsendelse af verifikationskoden. Forsøg venligst senere.",
     "verify_phone_code_error"       => "Koden kunne ikke verificeres.",
     "logged_in_as"                  => "Logget ind som :name",
+
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Reply Template|Reply Templates",
+    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
+    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
+    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
+    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
 
 );

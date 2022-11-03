@@ -244,7 +244,6 @@ return array(
     "ticket_notes_top"          => "Kun i toppen",
     "ticket_notes_messages"     => "Kun i beskeder",
 
-    "captcha_desc"              => "Hvornår skal captcha vises for brugere der åbner nye tickets",
     "unregistered_only"         => "Kun uregistrerede brugere",
 
     "allow_unauth_users"        => "Tillad uautoriserede Brugere",
@@ -276,7 +275,6 @@ return array(
     "add_tag"                   => "Tilføj tag",
 
     "unlock"                    => "Lås op",
-    "merge"                     => "Sammenlæg",
     "merged"                    => "Sammenlagt",
     "unmerge"                   => "Opdel",
     "close_and_lock"            => "Luk & Lås",
@@ -454,7 +452,6 @@ return array(
     "select_a_department_email" => "Vælg en afdelings email...",
     "record_public_desc"        => "Aktiver for kun at lade :record være tilgængelig for dig selv.",
     "record_group_desc"         => "Hvis du ønsker at lade :record være synlig for udvalgte operatør grouper. Efterlad tom for at gøre synlig for alle operatører.",
-    "ticket_format_desc"        => "Kan indeholde alfanumeriske karakterer og special karakterer <code>-_.+!*,</code><br />De følgende variabler kan også anvendes: %S for et sekventielt nummer | %N for et tilfældigt nummer | %L for et tilfældigt bogstav<br />Brug {number} for gentagelse <strong>kun</strong> efter %N eller %L, eks. %N{4} tilsvarer 4 tilfældige numbre, %L{3} tilsvarer 3 tilfældige bogstaver<br />Det følgende <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameter prefixed med % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
@@ -544,5 +541,16 @@ return array(
      */
     "on_behalf_of"              => "Oprettet på vegne af",
     "reply_canned_be_posted"    => "Det er i øjeblikket ikke muligt at besvare denne ticket; kanalen eller kanal kontoen kan være deaktiveret.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Kan indeholde alfanumeriske karakterer og special karakterer <code>-_.+!*,</code><br />De følgende variabler kan også anvendes: %S for et sekventielt nummer | %N for et tilfældigt nummer | %L for et tilfældigt bogstav<br />Brug {number} for gentagelse <strong>kun</strong> efter %N eller %L, eks. %N{4} tilsvarer 4 tilfældige numbre, %L{3} tilsvarer 3 tilfældige bogstaver<br />Det følgende <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameter prefixed med % Y,y,m,d,j,g,G,h,H,i,s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Hvornår skal captcha vises for brugere der åbner nye tickets",
 
 );
