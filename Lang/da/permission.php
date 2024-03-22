@@ -56,7 +56,6 @@ return array(
 
     // Report
     "report"            => "Vis Rapporter",
-    "reportdashboard"   => "Vis Dashboard",
 
     // General
     "tag"               => "Administrer Tags",
@@ -77,7 +76,6 @@ return array(
     // User
     "usercustomfield"   => "Administrer Brugers Brugerdefinerede Felter",
     "organisationcustomfield" => "Administrer Organisationens Brugerdefinerede Felter",
-    "operatorsignature" => "Administrer Operatør Signaturer",
 
     /*
      * 2.1.1
@@ -125,4 +123,18 @@ return array(
     "addon"             => "Vis og Håndter Tilføjelser",
     "system_health"     => "Vis System Helbred",
 
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Manage Operator Reply Templates",
+
+    /*
+     * 5.0.0
+     */
+    "private_messaging" => "View Private Messages",
+
+    /*
+     * 5.1.0
+     */
+    "manage_report"     => "Manage Reports",
 );
