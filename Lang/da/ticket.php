@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "Seneste Tickets",
     "last_message_text"         => "Sidste besked Tekst",
 
-    "set_due_time"              => "Sæt et færdiggørelses tidspunkt",
-
     "settings"                  => "Ticket Indstillinger",
 
     "priority"                  => "Prioritet|Prioriteter",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Tilladte fil vedhæftningstyper",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> ser også denne ticket.",
     "draft_saved"               => "Kladde gemt :time",
     "save_draft"                => "Gem Kladde",
     "discard_draft"             => "Slet Kladde",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "SLA Plan|SLA Planer",
     "specific_schedule"         => "Specifikke Skemaer",
     "calendar_hours_24"         => "Kalender timer (24 Timer)",
-    "resolution_time"           => "Løsnings Tider",
-    "resolution_time_desc"      => "Sæt tider som tickets skal være besvaret og løst indenfor, afhængig af prioritet. Tiden vil kun blive talt i åbningstider baseret på det valgte tidsskema, decimal værdier kan anvendes.",
-    "reply_within"              => "Besvar indenfor",
-    "resolve_within"            => "Løs indenfor",
     "plan"                      => "Plan",
     "sla_condition"             => "SLA Betingelser",
     "sla_condition_desc"        => "Definer de ticket betingelser som nye tickets bliver kontrolleret imod for at tjekke om de falder indenfor denne plan. Hvis en ny ticket matcher flere SLA planer, vil det blive afgjort på baggrund af SLA plan prioritet, hvilket kan defineres ved at gå til listen med SLA planer og prioritere disse her.",
@@ -244,7 +237,6 @@ return array(
     "ticket_notes_top"          => "Kun i toppen",
     "ticket_notes_messages"     => "Kun i beskeder",
 
-    "captcha_desc"              => "Hvornår skal captcha vises for brugere der åbner nye tickets",
     "unregistered_only"         => "Kun uregistrerede brugere",
 
     "allow_unauth_users"        => "Tillad uautoriserede Brugere",
@@ -259,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Standard Prioritet",
     "default_priority_desc"     => "Den prioritet der bliver sat på alle indgående tickets via denne kanal.",
-    "verbose_email_log"         => "Verbose Email Log",
 
     "last_reply"                => "Sidste Svar",
     "opened_at"                 => "Åbnet",
@@ -276,7 +267,6 @@ return array(
     "add_tag"                   => "Tilføj tag",
 
     "unlock"                    => "Lås op",
-    "merge"                     => "Sammenlæg",
     "merged"                    => "Sammenlagt",
     "unmerge"                   => "Opdel",
     "close_and_lock"            => "Luk & Lås",
@@ -401,7 +391,6 @@ return array(
     "email_user_frontend"       => "Email brugere der åbner tickets på frontend",
     "email_user_frontend_desc"  => "Definerer om brugere skal underrettes på email når de selv åbner en ticket via frontend.",
     "department_template_disabled" => "Den relevante email skabelon for afdelingen er deaktiveret, så denne email kan ikke sendes.",
-    "verbose_email_log_desc"    => "Om email opsamling skal logges til fil, denne funktion foreslås deaktiveret med mindre du bliver instrueret til at aktivere den af support i fejlfindings øjemed. Der opbevares fem dages logs, ældre log filer bliver slettet automatisk af systemet.",
 
     /*
      * 2.2.0
@@ -421,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Aktiver for kun at vise denne afdeling til brugere der er logget ind og kun acceptere email fra brugere der er aktivt registrerede i helpdesken. Hvis aktiveret vil en bounce-back email blive sendt til uregistrerede brugere der sender en email til denne afdeling. For at ændre eller deaktivere emailen se venligst 'Kun Registrerede Brugere' skabelon muligheder nedenfor.",
     "form_fields_desc"          => "Hvis du ønsker at indsamle yderligere information når en bruger tilføjer deres feedback, kan du sætte brugerdefinerede felter op til visning på formen her. Felt typerne vil være låske når formen er blevet anvendt af en bruger.",
-    "feedback_ratings"          => "Bruger tilfredsheds Ratings (påvirkende din kunde tilfredsheds score)",
     "email_and_other_accounts"  => "Email og andre kanal konti",
     "delete_message"            => "Slet besked",
     "linked_tickets"            => "Linkede Tickets",
@@ -454,7 +442,6 @@ return array(
     "select_a_department_email" => "Vælg en afdelings email...",
     "record_public_desc"        => "Aktiver for kun at lade :record være tilgængelig for dig selv.",
     "record_group_desc"         => "Hvis du ønsker at lade :record være synlig for udvalgte operatør grouper. Efterlad tom for at gøre synlig for alle operatører.",
-    "ticket_format_desc"        => "Kan indeholde alfanumeriske karakterer og special karakterer <code>-_.+!*,</code><br />De følgende variabler kan også anvendes: %S for et sekventielt nummer | %N for et tilfældigt nummer | %L for et tilfældigt bogstav<br />Brug {number} for gentagelse <strong>kun</strong> efter %N eller %L, eks. %N{4} tilsvarer 4 tilfældige numbre, %L{3} tilsvarer 3 tilfældige bogstaver<br />Det følgende <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameter prefixed med % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
@@ -507,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Vælg den ticket du vil flette med",
-    "search_number_or_subject"  => "Søg efter ticket nummer eller emne",
     "im_not_sure"               => "Jeg er ikke sikker",
     "auto_reply_detected"       => "Autosvar detekteret - ingen notifikation vil blive sendt til brugere.",
     "cc_desc"                   => "Du kan CC andre personer på denne ticket ved at indstaste deres email adresser her.",
@@ -544,5 +530,47 @@ return array(
      */
     "on_behalf_of"              => "Oprettet på vegne af",
     "reply_canned_be_posted"    => "Det er i øjeblikket ikke muligt at besvare denne ticket; kanalen eller kanal kontoen kan være deaktiveret.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Kan indeholde alfanumeriske karakterer og special karakterer <code>-_.+!*,</code><br />De følgende variabler kan også anvendes: %S for et sekventielt nummer | %N for et tilfældigt nummer | %L for et tilfældigt bogstav<br />Brug {number} for gentagelse <strong>kun</strong> efter %N eller %L, eks. %N{4} tilsvarer 4 tilfældige numbre, %L{3} tilsvarer 3 tilfældige bogstaver<br />Det følgende <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameter prefixed med % Y,y,m,d,j,g,G,h,H,i,s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Hvornår skal captcha vises for brugere der åbner nye tickets",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> ser også denne ticket.",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "Løsnings Tider",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
+
+    /*
+     * 5.3.0
+     */
+    "reject_duplicate_emails"   => "Reject Duplicate Emails",
+    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
+    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
 
 );
