@@ -9,8 +9,6 @@ return array(
 
     "save_order"            => "Forsøger at gemme den opdaterede sortering",
 
-    "show_all_results"      => "Vis alle resultater &raquo;",
-
     "are_you_sure"          => "Er du sikker?",
     "yes_im_sure"           => "Ja, jeg er sikker",
 
@@ -85,7 +83,6 @@ return array(
 
     "missing_extension"     => "Manglende udvidelse",
     "php_ldap_missing"      => "php-ldap udvidelsen er påkrævet for brug af LDAP autorisation. Aktiver den og genindlæs denne side.",
-    "php_imap_missing"      => "php-imap udvidelsen er påkrævet for at anvende Email Download. Hvis du ønsker at bruge Email Download, aktiver da venligst udvidelsen og genindlæs denne side.",
 
     /*
      * 2.0.3
@@ -153,5 +150,22 @@ return array(
      */
     "popup_blocked"         => "Din browser blokerer popup vinduer. Aktiver popup vinduer og videresendelser for denne hjemmeside for anvendelse af forhåndsvisning.",
     "error_editing_message" => "Der opstod en fejl i forsøget op at redigere denne besked.",
+
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
+    /*
+     * 4.3.0
+     */
+    "show_all_results"      => "Vis alle resultater &raquo;",
+
+    /*
+     * 5.0.0
+     */
+    "lock_timeout"          => "Lock Timeout",
+    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
 
 );

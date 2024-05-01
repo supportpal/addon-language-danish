@@ -82,11 +82,6 @@ return array(
     "last_message_content"              => "Sidste besked indhold",
 
     /*
-     * 2.5.0
-     */
-    "user_email_confirmed"              => "Bruger email bekræftet",
-
-    /*
      * 3.0.0
      */
     "user_2fa_enabled"                  => "Bruger 2FA aktiveret",
@@ -112,4 +107,15 @@ return array(
      * 4.0.0
      */
     "last_message_content_exc_notes"    => "Sidste besked indhold (eksklusiv noter)",
+
+    /*
+     * 5.0.0
+     */
+    "user_email_verified"               => "User email verified",
+    "ticket_has_followup"               => "Ticket has follow up",
+
+    /*
+     * 5.3.0
+     */
+    "user_registered"                   => "User registered",
 );

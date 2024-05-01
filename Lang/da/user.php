@@ -23,7 +23,6 @@ return array(
     "transfer_ownership_desc"       => "Som den nuværende ejer af organisationen kan du ikke fjernes som manager, og kun du kan slette organisationen. Du kan overføre ejerskab af organisationen til en anden, vær opmærksom på at handlingen ikke kan fortrydes.",
     "transfer_ownership_operator"   => "Kun du som ejer af organisationen kan slette den, og du kan ikke fjernes fra den. Brug denne option for at ændre ejernes af organisationen til en anden bruger.",
     "start_typing_name"             => "Begynd at skrive et navn...",
-    "organisation_add_user"         => "Tilføj bruger til organisationen",
     "organisation_desc"             => "Hver organisation kan have <strong>managers</strong>, som kan håndtere brugere og læse og besvare andres tickets, og <strong>brugere</strong>, som kan åbne tickets, men kan ikke læse eller besvare andres tickets.",
     "organisation_operator_desc"    => "Tilføj eksisterende brugere ved at klikke på \"Tilføj Bruger\" og søg efter deres navn, vær opmærksom på at tilføjelse af en bruger vil fjerne forbindelser de har til andre organisationer.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Kan håndtere andre brugere og se &amp; besvare andre brugeres tickets.<br /><strong>Brugere</strong> - Kan kun åbne tickets på vegne af organisationen og besvare egne tickets.",
@@ -56,9 +55,6 @@ return array(
     "country"                       => "Land",
     "avatar"                        => "Avatar",
     "confirm_password"              => "Bekræft Password",
-
-    "confirmed"                     => "Bekræftet",
-    "unconfirmed"                   => "Ubekræftet",
 
     "group"                         => "Bruger Gruppe|Bruger Grupper",
     "group_members"                 => "Gruppe Medlemmer",
@@ -137,7 +133,6 @@ return array(
     "two_fa_secret"                 => "2FA Hemmelighed",
     "two_fa_secret_desc"            => "Gem venligst denne et sikkert sted da du vil få brug for den hvis du får brug for at genoprette din authenticator konto på din telefon.",
     "display_notifications"         => "Vis Notifikationer",
-    "display_notifications_desc"    => "Systemet vil underrette dig når nye tickets eller svar bliver oprettet. Eller når andre operatører logger ind. Du kan vælge imellem skrivebords notifikationer, browser notifikationer eller ingen notifikationer.",
     "desktop_notifications"         => "Skrivebords Notifikationer",
     "browser_notifications"         => "Browser Notifikationer",
 
@@ -204,11 +199,6 @@ return array(
     "op_settings_individual_dept"   => "Tildeles individuelt:",
     "op_settings_individual_dept_desc" => "Disse afdelinger er en tilføjelse til de afdelinger operatøren er tildelt til via deres grupper ovenfor.",
     "also_registered_other_brand"   => "Brugerne er også registreret i brandet :brands.|Denne bruger er også registreret i følgende brands :brands.",
-    "signature"                     => "Signatur|Signaturer",
-    "signature_desc"                => "Opret personlige ticket signaturer, med mulighed for at tilpasse baseret på en tickets brand eller afdeling. Standard signatures anvendes når en signatur for en specifik afdeling og eller brand ikke kan findes.",
-    "operator_signature"            => "Operatør Signatur|Operatør Signaturer",
-    "ticket_signature_desc"         => "Definer operatørens standard ticket signatur.",
-    "operator_signature_desc"       => "Yderligere signaturer for specifikke afdelinger og eller brands kan defineres i <a href=':route' target='_blank'>Operatør Signaturer</a> sektionen.",
     "view_organisation"             => "Vis Organisation",
     "new_owner"                     => "Ny Ejer",
     "operator_role"                 => "Operatør Rolle|Operatør Roller",
@@ -259,7 +249,6 @@ return array(
     "unlink_account"                => "Fjern tilknytning til :record konto",
     "unlink_account_warning"        => "Fjerner du tilknytning til SoME konto vil det betyde at den ikke længere kan anvendes til at logge direkte ind på din konto.",
     "failed_login"                  => "Mislykket Login|Mislykkede Logins",
-    "resend_confirmation"           => "<strong><a href=':link'>Klik her</a></strong> for at blive tilsendt en ny bekræftelses email.",
 
     /*
      * 2.4.0
@@ -276,30 +265,15 @@ return array(
     /*
      * 2.5.0
      */
-    "organisation_domain_desc"      => "Indtast hvert domæne ejet af organisationen. Brugere som registrerer med en email adresse som tilhører et af disse domæner vil automatisk blive tilføjet til organisationen. Vi anbefaler at verificere at brugeren oprigtigt er en del af organisationen hvis de ikke har bekræftet ejerskab af deres email adresse.",
-    "changing_email_desc"           => "Udskiftning af email addressen vil kræve at brugere bekræfter ejerskab af deres email adresse når de logger ind næste gang.",
-    "unconfirmed_user_desc"         => "Brugeren har ikke bekræftet ejerskab af deres email adresse.",
-    "unregistered_user_desc"        => "Denne konto blev oprettet automatisk uden en adgangskode. Du kan sende en bekræftelsesemail for at lade brugeren konfigurere deres konto eller definere et password for dem nedenfor.",
-    "send_confirmation_email"       => "Send Bekræftelses Email",
-    "mark_as_confirmed"             => "Marker som Bekræftet",
-    "password_reset_already"        => "Du har allerede bekræftet ejerskab af denne email adresse, du kan fortsætte til login.",
-    "unconfirmed_account"           => "Tjek venligst din email for at bekræfte ejerskab af denne email adresse.",
     "success_register_desc"         => "Tak for din konto registrering. Tjek venligst din email for at færdiggøre konto opsætning.",
-    "resend_confirmation_sent"      => "En ny bekræftelses email er blevet sendt og vil blive modtaget indenfor et par minutter.",
-    "register_confirm_desc"         => "Tak for din bekræftelse af email ejerskab, indtast en adgangskode nedenfor for at færdiggøre din konto opsætning.",
-    "thank_you_confirm"             => "Tak for din bekræftelse af email ejerskab.",
     "use_gravatar"                  => "Brug Gravatar",
     "use_gravatar_desc"             => "Gravatar er en tjeneste som tilbyder en globalt genkendt avatar til sine registrerede brugere. Helpdesken vil automatisk sende en forespørgsel til secure.gravatar.com med et MD5 hash af hver bruger email adresse for at assistere med visning af avatarer. MD5 hash kan også være offentligt synlig i frontend HTML. Vi anbefaler at opdatere din privatlivs politik hvis du aktiverer denne funktionalitet.",
 
     /*
      * 2.6.0
      */
-    "updating_email_address"        => "Klik venligst på linket sendt til :email for at færdiggøre bekræftelsen af email ejerskab.",
-    "confirmation"                  => "Bekræftelse",
-    "confirmation_email_in_use"     => "Email addressen er allerede i brug på en anden konto.",
     "continue_to_login"             => "Fortsæt venligst til <a href=':route'>login</a>.",
     "reset_request_desc"            => "Hvis en matchende konto blev fundet vil en email blive sendt til dig indenfor kort tid for at tillade dig at nulstille din adgangskode.",
-    "password_reset_error"          => "Linket kan være udløbet. Hvis dit link ikke virker, anmod venligst om et nyt.",
 
     /*
      * 3.0.0
@@ -339,7 +313,7 @@ return array(
     "logged_in"                     => "Logget Ind",
     "revoke_session_desc"           => "Fjernelse af en session vil logge enheden ud af operatør panelet. Det vil også fjerne alle Husk Mig tokens for andre enheder.",
 
-    /**
+    /*
      * 4.0.0
      */
     "verify_phone_number"           => "Verificer Telefon Nummer",
@@ -348,5 +322,68 @@ return array(
     "verify_phone_code_send_error"  => "En fejl opstod ved afsendelse af verifikationskoden. Forsøg venligst senere.",
     "verify_phone_code_error"       => "Koden kunne ikke verificeres.",
     "logged_in_as"                  => "Logget ind som :name",
+
+    /*
+     * 4.1.0
+     */
+    "merge_users"                   => "Merge Users",
+    "merge_user_into"               => "Select user to merge into",
+    "merge_organisations"           => "Merge Organisations",
+    "merge_organisation_into"       => "Select organisation to merge into",
+    "search_for_organisation"       => "Search for organisation...",
+
+    /*
+     * 4.2.0
+     */
+    "reply_template"                => "Reply Template|Reply Templates",
+    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
+    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
+    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
+    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
+
+    /*
+     * 5.0.0
+     */
+    "verified"                      => "Verified",
+    "unverified"                    => "Unverified",
+    "unverified_email_desc"         => "User has not verified ownership of this email address.",
+    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "changing_email_desc"           => "Udskiftning af email addressen vil kræve at brugere bekræfter ejerskab af deres email adresse når de logger ind næste gang.",
+    "unregistered_user_desc"        => "Denne konto blev oprettet automatisk uden en adgangskode. Du kan sende en bekræftelsesemail for at lade brugeren konfigurere deres konto eller definere et password for dem nedenfor.",
+    "send_verification_email"       => "Send Verification Email",
+    "mark_as_verified"              => "Mark as Verified",
+    "password_reset_already"        => "Du har allerede bekræftet ejerskab af denne email adresse, du kan fortsætte til login.",
+    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
+    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
+    "organisation_domain_desc"      => "Indtast hvert domæne ejet af organisationen. Brugere som registrerer med en email adresse som tilhører et af disse domæner vil automatisk blive tilføjet til organisationen. Vi anbefaler at verificere at brugeren oprigtigt er en del af organisationen hvis de ikke har bekræftet ejerskab af deres email adresse.",
+    "resend_verification_email"     => "Resend Verification Email",
+    "updating_email_address"        => "Klik venligst på linket sendt til :email for at færdiggøre bekræftelsen af email ejerskab.",
+    "email_verification"            => "Email Verification",
+    "email_verification_already_in_use" => "The email address is already in use by another account.",
+    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
+    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
+    "invite_user"                   => "Invite User",
+    "organisation_invite_user"      => "Invite user to organisation",
+    "user_already_in_organisation"  => "The user is already part of an organisation.",
+    "invitations"                   => "Invitation|Invitations",
+    "invite_exists"                 => "The user has already been invited.",
+    "success_join"                  => "You are now a member of the organisation :name.",
+    "error_join"                    => "The invitation code could not be found, or has expired.",
+    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "Systemet vil underrette dig når nye tickets eller svar bliver oprettet. Eller når andre operatører logger ind. Du kan vælge imellem skrivebords notifikationer, browser notifikationer eller ingen notifikationer.",
+
+    /*
+     * 5.3.0
+     */
+    "email_verified"                => "Email Verified",
+    "registered_desc"               => "If the user has a password set and is able to login to the frontend.",
+    "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
+    "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
+    "password_set_success"          => "Password set successfully!",
 
 );
