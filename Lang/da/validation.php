@@ -82,11 +82,6 @@ return array(
     "logo"                      => "Logoet skal pege på en gyldig billed fil (direkte URL eller relativ fil sti til base biblioteket).",
 
     /*
-     * 2.1.1
-     */
-    "old_password"              => ":attribute feltet er ikke gyldigt.",
-
-    /*
      * 2.2.0
      */
     "required_with_translation" => ":translation oversættelsen for :attribute feltet er krævet når :values er til stede.",
@@ -169,14 +164,21 @@ return array(
     "starts_with"               => ":attribute skal starte med en af de følgende: :values.",
 
     /*
-     * 3.4.0
-     */
-    "password"                  => "Passwordet er ikke korrekt.",
-
-    /*
      * 3.5.0
      */
-    'phone'                     => "Det oplyste telefonnummer er ikke gyldigt.",
+    "phone"                     => "Det oplyste telefonnummer er ikke gyldigt.",
+
+    /*
+     * 4.3.0
+     */
+    "is_invalid"                => "The :attribute is invalid.",
+
+    /*
+     * 5.0.0
+     */
+    "current_password"           => "The password is incorrect.",
+    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
+    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
 
     /*
     |--------------------------------------------------------------------------

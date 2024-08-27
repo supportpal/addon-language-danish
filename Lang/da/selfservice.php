@@ -150,7 +150,12 @@ return array(
      */
     "type_protected_desc"       => "Aktiver for kun at vise indhold af denne type for brugere der er logget ind.",
     "article_feedback"          => "Artikel Feedback",
-    "thank_you_for_feedback"    => "Tak for din feedback på denne artikel.",
     "frontend_icon_desc"        => "Vælg et <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regulært icon til visning på frontenden for den valgte type, du kan også søge efter et brugerdefineret ikon som ikke er inkluderet i listen (startende med 'fa-').",
+    "comment_deleted"           => "Comment deleted",
+
+    /*
+     * 5.3.0
+     */
+    "in_reply_to"               => "in reply to",
 
 );
