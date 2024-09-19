@@ -26,11 +26,7 @@ return array(
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Opdater slut-behandlingstid",
     "close_and_lock_ticket"     => "Luk og lås ticket",
-    "pause_due_time"            => "Pause slut-behandlingstid",
-    "reduce_due_time"           => "Reducer slut-behandlingstid",
-    "set_due_time"              => "Sæt slut-behandlingstid",
     "unlock_ticket"             => "Lås ticket op",
     "update_sla_plan"           => "Opdater SLA plan",
     "update_subject"            => "Opdater emne",
@@ -74,8 +70,17 @@ return array(
     "block_user"                => "Bloker bruger",
 
     /*
-     * 2.6.0
+     * 5.0.0
      */
-    "clear_due_time"            => "Ryd slut-behandlingstid",
+    "increase_resolve_due_time" => "Increase resolution due time",
+    "increase_reply_due_time"   => "Increase reply due time",
+    "reduce_resolve_due_time"   => "Reduce resolution due time",
+    "reduce_reply_due_time"     => "Reduce reply due time",
+    "set_resolve_due_time"      => "Set resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "clear_resolve_due_time"    => "Clear resolution due time",
+    "clear_reply_due_time"      => "Clear reply due time",
+    "pause_due_times"           => "Pause due times",
+    "unpause_due_times"         => "Unpause due times",
 
 );

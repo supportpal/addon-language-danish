@@ -65,12 +65,6 @@ return array(
     "submit_a_ticket"           => "Tilføj en Ticket",
 
     /*
-     * 2.0.1
-     */
-
-    "post_install"              => "For at systemet kan fungere korrekt skal et cron job konfigureres. Læs venligst vores <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post-installations procedure</a> for detaljer om dette og andre anbefaledede handlinger der kan fordbedre funltionalitet og sikkerhed.",
-
-    /*
      * 2.0.2
      */
     "required_requirements"     => "Du opfylder :required af :total påkrævede krav.",
@@ -111,15 +105,12 @@ return array(
     "allow_url_fopen"           => "'allow_url_fopen' Aktiveret",
     "allow_url_fopen_failure"   => "Aktiver 'allow_url_fopen' i din php.ini fil for at anvende Gravatar og andre features.",
     "allowed_methods"           => "HTTP Tilladte Metoder",
-    "help_allowed_methods"      => "Din web server skal tillade alle de nedenstående HTTP metoder. Se venligst vores <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> dokumentation for mere information.",
 
     /*
      * 2.4.0
      */
     "mysql_server_version"      => "Server Version >= :min",
     "mysql_server_version_desc" => "MySQL :min eller højere er påkrævet for at køre SupportPal. Fandt: ':version'.",
-    "mysql_client_version"      => "Klient Version >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL klient version :min eller højere (:mysqlnd_min for MySQLnd) er påkrævet for at køre SupportPal. Fandt: ':version'.",
 
     "upgrade_step"              => "Step :num af :total: ",
     "accept_eula"               => "Accepter EULA",
@@ -134,7 +125,6 @@ return array(
      */
     "press_to_begin"            => "Klik venligst på knappen herunder for at starte.",
     "locked"                    => "Installation/Opgradering Igang",
-    "locked_desc"               => "Detekterede en låst fil (:path).\nKontroller venligst at en anden installation ikke allerede kører.\n\nDu kan slette denne fil når du er sikker på en anden installation eller opgradering ikke kører.",
 
     "error_and_empty_database"  => "Der opstod en fejl. Det kan være nødvendigt at tømme databasen før du starter igen.",
     "login_with_details"        => "Du kan logge ind med detaljerne specificeret tidligere.",
@@ -192,4 +182,26 @@ return array(
      * 3.7.0
      */
     "troubleshooting_tips"      => "Få fejlfinding tips",
+
+    /*
+     * 4.2.0
+     */
+    "app_manager_version_not_supported" => "App Manager (:version) is not supported.",
+    "running_upgrade"           => "Running app upgrade",
+    "upgrade_complete_success"  => "App upgrade completed successfully.",
+    "app_manager_requires_update" => "Must update app-manager before running helpdesk update. :command",
+
+    /*
+     * 5.0.0
+     */
+    "mysql_client_version"      => "Klient Version >= :min (:mysqlnd_min for MySQLnd)",
+    "mysql_client_version_desc" => "MySQL klient version :min eller højere (:mysqlnd_min for MySQLnd) er påkrævet for at køre SupportPal. Fandt: ':version'.",
+    "post_install"              => "For at systemet kan fungere korrekt skal et cron job konfigureres. Læs venligst vores <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post-installations procedure</a> for detaljer om dette og andre anbefaledede handlinger der kan fordbedre funltionalitet og sikkerhed.",
+    "help_allowed_methods"      => "Din web server skal tillade alle de nedenstående HTTP metoder. Se venligst vores <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> dokumentation for mere information.",
+
+    /*
+     * 5.3.0
+     */
+    "check_file_permissions"    => "Checking file permissions...",
+
 );
