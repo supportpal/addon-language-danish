@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "Din ticket har været lukket i en rum tid, og det er desværre ikke længere muligt at give feedback.",
     "feedback_questions"        => "Kan du undvære et par minutter? Besvar venligst de følgende spørgsmål og hjælp os med at fortsætte forbedringen af den support vi yder.",
     "feedback_for_ticket"       => "Feedback til Ticket #:number",
-    "feedback_rating_desc"      => "Supporten modtaget på denne ticket er blevet vurderet som <strong>:rating</strong> af brugeren.",
 
     // Custom fields
     "customfield"               => "Ticket Brugerdefineret Felt|Ticket Brugerdefinerede Felter",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Tilladte fil vedhæftningstyper",
 
     // Drafts
-    "draft_saved"               => "Kladde gemt :time",
     "save_draft"                => "Gem Kladde",
     "discard_draft"             => "Slet Kladde",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Svar Muligheder",
     "send_email_to_users"       => "Send Email Til Bruger(e)",
     "send_email_to_operators"   => "Send Email Til Operatør(er)",
-    "back_to_grid"              => "Gå Tilbage til Ticket Oversigt",
     "take"                      => "Overtag",
     "take_ownership"            => "Tag Ejerskab",
     "pause_duetime"             => "Pause Færdiggørelsestid",
@@ -264,7 +261,6 @@ return array(
     "no_departments_found"      => "Ingen afdelinger fundet. Klik <a href=':route'>her</a> for at oprette en.",
     "no_operators_found"        => "Ingen operatører fundet. Klik <a href=':route'>her</a> for at oprette en.",
     "change_priority"           => "Skift prioritet",
-    "add_tag"                   => "Tilføj tag",
 
     "unlock"                    => "Lås op",
     "merged"                    => "Sammenlagt",
@@ -279,7 +275,6 @@ return array(
 
     "pause_duetime_desc"        => "Pause den tilbageværende tid indtil efter opfølgningstidspunkt hvis der er en aktiv SLA plan på denne ticket. Færdiggørelsestidspunktet vil først starte igen når et svar eller en note er blevet tilføjet denne ticket (inklusiv fra opfølgning).",
 
-    "add_cc"                    => "Tilføj CC",
     "reply_above_line"          => "Besvar venligst over denne linie",
 
     "email_settings"            => "Email Indstillinger",
@@ -289,11 +284,6 @@ return array(
     "track_ticket_not_found"    => "Kunne ikke finde ticket med ticket number og den indtastede email addresse.",
 
     "type_in_tags"              => "Indtast tags",
-
-    /*
-     * 2.0.1
-     */
-    "allowed_files_desc"        => "Liste med filendelser, separeret af | karakteren, der er tilladte som vedhæftninger. For eksempel: txt|png|jpg. For tilladelse af alle filtyper, indtast: ?.*",
 
     /*
      * 2.0.2
@@ -310,14 +300,10 @@ return array(
     "default_reply_options_desc" => "Vælg de standard svar muligheder der skal være tilgængelige ved åbning eller besvarelse af en ticket. ':reply_option' muligheden vil være ticket afhængig baseret på ':department_option' afdelings indstillingen.",
     "associate_response_tag"    => "Associater standardsvar med et tag...",
     "canned_response_tags_desc" => "Tilføj tags som kan hjælpe med at finde et standard svar når der sendes ticket besvarelser.",
-    "append_ip_address"         => "Tilføj IP Address",
-    "append_ip_address_desc"    => "Tilføj IP addressen for en bruger til deres beskeder når de åbner eller besvarer ticket fra frontenden.",
     "unassign_operator"         => "Fjern Operatør",
-    "remove_tag"                => "Fjern Tag",
     "message_clipped"           => "[Besked begrænset]",
     "view_entire_message"       => "Vis hele beskeden",
     "no_custom_fields"          => "Ingen brugerdefinerede felter fundet. Klik <a href=':route'>her</a> for at oprette en.",
-    "follow_up_active"          => "En <a class='view-followup' style='text-decoration: underline;'>opfølgning</a> er aktiv på denne ticket og vil køre <strong>:time</strong>.",
     "disable_user_email_replies" => "Deaktiver Bruger Email Besvarelser",
 
     /*
@@ -423,7 +409,6 @@ return array(
     "forwarded_to"              => "Videresendt til",
     "new_operator_reply"        => "Ny Operatør Besvarelse",
     "new_user_reply"            => "Nyt Bruger Svar",
-    "add_bcc"                   => "Tilføj BCC",
     "at_least_one_recipient"    => "Definer venligst minimum en modtager.",
     "forwarded_message"         => "---------- Videresendt besked ----------",
 
@@ -483,7 +468,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Opfølgninger",
-    "follow_up_multiple_active" => "Flere <a class='view-followup' style='text-decoration: underline;'>opfølgninger</a> er aktive på denne ticket og den næst planlagte vil køre <strong>:time</strong>.",
     "follow_up_no_actions"      => "Opfølgningen har ingen handlinger defineret, bekræft venligst hvorvidt du vil fortsætte.",
     "status_after_running"      => "Status Efter Kørsel",
     "older_messages"            => ":count ældre beskeder",
@@ -497,11 +481,6 @@ return array(
     "im_not_sure"               => "Jeg er ikke sikker",
     "auto_reply_detected"       => "Autosvar detekteret - ingen notifikation vil blive sendt til brugere.",
     "cc_desc"                   => "Du kan CC andre personer på denne ticket ved at indstaste deres email adresser her.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> var igang med en kladde",
 
     /*
      * 3.3.0
@@ -535,11 +514,8 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Kan indeholde alfanumeriske karakterer og special karakterer <code>-_.+!*,</code><br />De følgende variabler kan også anvendes: %S for et sekventielt nummer | %N for et tilfældigt nummer | %L for et tilfældigt bogstav<br />Brug {number} for gentagelse <strong>kun</strong> efter %N eller %L, eks. %N{4} tilsvarer 4 tilfældige numbre, %L{3} tilsvarer 3 tilfældige bogstaver<br />Det følgende <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameter prefixed med % Y,y,m,d,j,g,G,h,H,i,s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
     "check_spam"                => "Check Spam Rules",
     "check_spam_api_desc"       => "Block messages which match spam rules.",
-    "enable_throttling"         => "Enable Throttling",
-    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
     "captcha_desc"              => "Hvornår skal captcha vises for brugere der åbner nye tickets",
 
     /*
@@ -572,5 +548,84 @@ return array(
     "reject_duplicate_emails"   => "Reject Duplicate Emails",
     "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
     "duplicate_email_detected"  => "Duplicate email that has already been imported.",
+
+    /*
+     * 5.5.0
+     */
+    "rate_limiting"             => "Rate Limiting",
+    "max_requests"              => "Max Requests",
+    "decay_time"                => "Decay Time",
+    "exclude_addresses"         => "Exclude Addresses",
+    "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "close_without_notify"      => "Close (without notification)",
+    "lock"                      => "Lock",
+    "pin"                       => "Pin",
+    "unpin"                     => "Unpin",
+
+    /*
+     * 5.6.0
+     */
+    "copy_to_new_filter"        => "Copy to New Filter",
+    "alias_support"             => "Alias Support",
+    "alias_support_desc"        => "Alias support analyses the recipient addresses of incoming emails to determine which department the email should be opened in. Disabling alias support will open all emails in the department they were fetched in irrespective of the recipient addresses.",
+
+    /*
+     * 5.7.0
+     */
+    "run_as_operator"           => "Run As",
+    "run_as_operator_desc"      => "Execute the following actions as the selected operator: \":actions\"",
+    "use_ticket_print_view"     => "Please use the dedicated print view to print this ticket. You can access it by clicking the 'Print' option in the ticket view.",
+    "save_feedback"             => "Save Feedback",
+    "ticket_opened_notification" => "New Ticket Opened",
+    "ticket_opened_notification_desc" => "Notifies you when a new user or internal ticket has been opened.",
+    "user_reply_notification"   => "User Ticket Reply Posted",
+    "user_reply_notification_desc" => "Notifies you when a user replies to an existing ticket.",
+    "operator_reply_notification" => "Operator Ticket Reply Posted",
+    "operator_reply_notification_desc" => "Notifies you when another operator replies to a ticket.",
+    "operator_note_notification" => "Operator Ticket Note Posted",
+    "operator_note_notification_desc" => "Notifies you when another operator posts a note on a ticket.",
+    "assigned_notification"     => "Assigned to Ticket",
+    "assigned_notification_desc" => "Notifies you when you are assigned to a ticket.",
+    "department_changed_notification" => "Department Changed",
+    "department_changed_notification_desc" => "Notifies you when a ticket changes department.",
+    "mention_notification"       => "Mentioned",
+    "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
+    "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
+    "allowed_files_desc"        => "Liste med filendelser, separeret af | karakteren, der er tilladte som vedhæftninger. For eksempel: txt|png|jpg. For tilladelse af alle filtyper, indtast: ?.*",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Gå Tilbage til Ticket Oversigt",
+    "stay_on_ticket"            => "Stay on Ticket",
+    "draft_saved"               => "Kladde gemt :time",
+    "drafting_message"          => "<strong>:name</strong> var igang med en kladde",
+    "feedback_notification"     => "Feedback Posted",
+    "feedback_notification_desc" => "Notifies you when feedback is posted on a ticket.",
+    "notify_feedback"           => "Feedback Notifications",
+    "notify_feedback_desc"      => "Specify which feedback responses from this form should trigger notifications to operators.",
+    "notify_all_feedback"       => "Notify on all feedback",
+    "notify_neutral_bad_feedback" => "Notify on neutral & bad feedback only",
+    "notify_bad_feedback"       => "Notify on bad feedback only",
+    "timeline"                  => "Timeline",
+    "filter_timeline"           => "Filter Timeline",
+    "timeline_replies"          => "Replies",
+    "timeline_forwards"         => "Forwards",
+    "timeline_customfields"     => "Custom field changes",
+    "timeline_sla"              => "SLA & due time changes",
+    "timeline_messages"         => "Message & note changes",
+    "timeline_userinfo"         => "User information & changes",
+    "timeline_assignment"       => "Assignment changes",
+    "timeline_state"            => "State changes",
+    "timeline_merging"          => "Merging, linking & splitting",
+    "max_requests_desc"         => "Set the maximum number of tokens available before a user is rate limited. Rate limiting works on a token system: creating a new ticket costs 3 tokens and replying to an existing ticket costs 1 token. The total number of tokens available resets after the decay time period.",
+    "decay_time_desc"           => "The number of minutes until the available tokens are reset.",
+
+    /*
+     * 6.1.0
+     */
+    "change_user"               => "Change User",
 
 );
