@@ -83,9 +83,6 @@ return array(
     "help_php_extensions"       => "PHP udvidelser er variable afhængig af din server, din vært og andre system variabler. For assistance med installation af manglende afhængigheder, kontakt venligst din hosting udbyder eller server administrator.",
     "help_php_settings"         => "For yderligere assistance, læs venligst <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Hjælp til PHP Indstillinger</a>.",
     "disabled_functions"        => "Deaktiverede Funktioner",
-    "help_mysql_version"        => "For assistance med installation af en ny MySQL version, kontakt venligst din hosting udbyder eller server administrator.",
-    "mysql_version"             => "MySQL Version",
-    "mysql_version_not_found"   => "Ikke tilgængelig, fandt MySQL version: :version",
 
     /*
      * 2.1.0
@@ -110,7 +107,6 @@ return array(
      * 2.4.0
      */
     "mysql_server_version"      => "Server Version >= :min",
-    "mysql_server_version_desc" => "MySQL :min eller højere er påkrævet for at køre SupportPal. Fandt: ':version'.",
 
     "upgrade_step"              => "Step :num af :total: ",
     "accept_eula"               => "Accepter EULA",
@@ -195,7 +191,6 @@ return array(
      * 5.0.0
      */
     "mysql_client_version"      => "Klient Version >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL klient version :min eller højere (:mysqlnd_min for MySQLnd) er påkrævet for at køre SupportPal. Fandt: ':version'.",
     "post_install"              => "For at systemet kan fungere korrekt skal et cron job konfigureres. Læs venligst vores <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post-installations procedure</a> for detaljer om dette og andre anbefaledede handlinger der kan fordbedre funltionalitet og sikkerhed.",
     "help_allowed_methods"      => "Din web server skal tillade alle de nedenstående HTTP metoder. Se venligst vores <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> dokumentation for mere information.",
 
@@ -203,5 +198,22 @@ return array(
      * 5.3.0
      */
     "check_file_permissions"    => "Checking file permissions...",
+
+    /*
+     * 6.0.0
+     */
+    "mysql_server_version_desc" => "MySQL :min eller højere er påkrævet for at køre SupportPal. Fandt: ':version'.",
+    "help_mysql_version"        => "For assistance med installation af en ny MySQL version, kontakt venligst din hosting udbyder eller server administrator.",
+    "mysql_version"             => "MySQL Version",
+    "mysql_version_not_found"   => "Ikke tilgængelig, fandt MySQL version: :version",
+    "mysql_client_version_desc" => "MySQL klient version :min eller højere (:mysqlnd_min for MySQLnd) er påkrævet for at køre SupportPal. Fandt: ':version'.",
+    "update_failed"             => "App update failed.",
+    "attempting_to_restore"     => "Attempting to restore from backup...",
+
+    /*
+     * 6.1.0
+     */
+    "freetype_support"          => "FreeType Support",
+    "upgrade_in_progress"       => "A system upgrade is in progress. The help desk will be unavailable until an administrator completes the upgrade. Please try again later.",
 
 );

@@ -97,7 +97,6 @@ return array(
     "incoming_spam"             => "Indgående (Afvist - Spam)",
     "incoming_throttled"        => "Indgående (Afvist - begrænset)",
     "email_subject"             => "Email Emne",
-    "twig_html_warning"         => "Twig er ikke tilladt i HTML tags/attributter og vil automatisk blive fjernet når du gemmer.",
 
     // Modules
     "modules"                   => "Modul|Moduler",
@@ -210,7 +209,6 @@ return array(
     "time_format"               => "Tids Format",
     "time_format_desc"          => "Tidsformatet der anvendes globalt.",
     "simpleauth_key"            => "SimpleAuth Key",
-    "simpleauth_key_desc"       => "Nøglen der anvendes til vores single sign on option, minimum 16 karakterer.",
     "simpleauth_operators"      => "Tillad for Operatører",
     "base_url"                  => "System URL",
     "base_url_desc"             => "Indtast den fulde web adresse til din installation, anvendes til generering af de URL´er der sendes til brugere.",
@@ -236,7 +234,6 @@ return array(
     "email_no_body"             => "Identifisering af email beskedens body lykkedes ikke.",
     "email_runtime_error"       => "En runtime error opstod ved oprettelse af ticket/besvarelse.",
     "email_reply_disabled"      => "Bruger email svar er blevet deaktiveret for denne afdeling.",
-    "email_throttled"           => "For mange indgående mails fra bruger. Begrænsningen er :max_requests emails hver :decay_time minut.",
 
     /*
      * 2.1.0
@@ -369,12 +366,10 @@ return array(
     "multi_ip"                  => "Multi-IP Support",
     "multi_ip_desc"             => "Tillader at låse SupportPal til mere end en intern eller ekstern IP.",
     "purchase"                  => "Køb",
-    "ticket_number_missing"     => "Til ticket relaterede emails, de {{ ticket.number }} flet felter skal være til stede i email emnet og skal være pakket ind i enten <em>[#{{ ticket.number }}]</em> eller <em>(#{{ ticket.number }})</em> for at route svar til den korrekte ticket. Hvis du gerne vil fjerne ticket nummeret, overvej venligst at aktivere <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressering</a>.",
 
     /*
      * 2.5.0
      */
-    "debug_mode_desc"           => "Aktiver debug mode for at vise fejl, anvendes kun til debugging eller hvis instrueret af support. Fejl og andre brugbare logging beskeder er ellers gemt i applikations loggen, som kan downloades ved at gå til -> Logs -> Log File Manager.",
     "record_trash_relations"    => "Emner vil blive flyttet til skraldespanden og permanent slettet efter :number days sammen med følgende relaterede data: :relations. Dette vil påvirke rapporter.",
     "uninstall_plugable_warning" => "Afinstallation af :plugable vil slette alle associacerede filer og data. Vi anbefaler at deaktivere :plugable istedet.",
     "web_settings_desc"         => "Web kanalens indstillinger gælder for frontenden. Per standard kan tickets tilgås af alle der kender en unik ticket URL. Du kan deaktivere dette og kræve login før adgang til ticket information kan opnås.",
@@ -575,7 +570,6 @@ return array(
     "file_not_found"            => "Filen ':path' blev ikke fundet.",
     "file_not_executable"       => "Filen ':path' er ikke eksekverbar.",
     "dependency_resolution"     => "Ikke i stand til at køre helbreds tjek.",
-    "debug_mode_warning"        => "Debug tilstand bør kun anvendes midlertidigt.",
     "custom_colour"             => "Brugerdefineret Farve",
     "remove_colour"             => "Fjern Farve",
     "background_colour"         => "Baggrunds Farve",
@@ -662,7 +656,6 @@ return array(
     /*
      * 5.3.0
      */
-    "ticket_channel_2"          => "Vi stiller et antal standard kanaler til rådighed. Du kan aktivere og konfigurere Facebook og Twitter kanalerne for at indsamle tickets genereret via sociale medier.",
     "incoming_duplicate"        => "Incoming (Duplicate)",
 
     /*
@@ -681,5 +674,174 @@ return array(
     "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
     "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
     "captcha_type_desc"         => "Vælg den Captcha der skal anvendes igennem systemet. Vi anbefaler at skifte til Google reCAPTCHA, som kræver yderligere konfiguration.",
+
+    /*
+     * 5.5.0
+     */
+    "ticket_channel_2"          => "Vi stiller et antal standard kanaler til rådighed. Du kan aktivere og konfigurere Facebook og Twitter kanalerne for at indsamle tickets genereret via sociale medier.",
+    "selected_country_aria_label" => "Selected country",
+    "no_country_selected"       => "No country selected",
+    "country_list_aria_label"   => "List of countries",
+    "zero_search_results"       => "No results found",
+    "one_search_result"         => "1 result found",
+    "multiple_search_results"   => "\${count} results found", // ${count} is a JS variable and should not be changed.
+    "advanced"                  => "Advanced",
+    "table"                     => "Table",
+    "cell"                      => "Cell",
+    "cell_properties"           => "Cell properties",
+    "merge_cells"               => "Merge cells",
+    "split_cell"                => "Split cell",
+    "row"                       => "Row",
+    "inset_row_before"          => "Insert row before",
+    "inset_row_after"           => "Insert row after",
+    "delete_row"                => "Delete row",
+    "row_properties"            => "Row properties",
+    "cut_row"                   => "Cut row",
+    "copy_row"                  => "Copy row",
+    "paste_row_before"          => "Paste row before",
+    "paste_row_after"           => "Paste row after",
+    "column"                    => "Column",
+    "insert_column_before"      => "Insert column before",
+    "insert_column_after"       => "Insert column after",
+    "delete_column"             => "Delete column",
+    "cut_column"                => "Cut column",
+    "copy_column"               => "Copy column",
+    "paste_column_before"       => "Paste column before",
+    "paste_column_after"        => "Paste column after",
+    "table_properties"          => "Table properties",
+    "delete_table"              => "Delete table",
+    "width"                     => "Width",
+    "height"                    => "Height",
+    "cell_spacing"              => "Cell spacing",
+    "cell_padding"              => "Cell padding",
+    "border_width"              => "Border width",
+    "caption"                   => "Caption",
+    "show_caption"              => "Show caption",
+    "alignment"                 => "Alignment",
+    "border_style"              => "Border style",
+    "border_colour"             => "Border colour",
+    "cell_type"                 => "Cell type",
+    "scope"                     => "Scope",
+    "horizontal_align"          => "Horizontal align",
+    "vertical_align"            => "Vertical align",
+    "header_cell"               => "Header cell",
+    "row_group"                 => "Row group",
+    "column_group"              => "Column group",
+    "left"                      => "Left",
+    "center"                    => "Center",
+    "right"                     => "Right",
+    "top"                       => "Top",
+    "middle"                    => "Middle",
+    "bottom"                    => "Bottom",
+    "anchor"                    => "Anchor",
+    "example"                   => "Example",
+
+    /*
+     * 5.6.0
+     */
+    "email_template_enabled_desc" => "Disabling the email template will prevent notifications that use this template from being sent.",
+    "template_disabled"         => "Template Disabled",
+    "reset_email_template"      => "This will update the editor with the default email template content. Any previous changes made will be lost once the email template has been saved.",
+
+    /*
+     * 5.7.0
+     */
+    "cursor_position"           => "Cursor Position",
+    "set_cursor_position"       => "Set Cursor Position",
+    "private_message_notification" => "New Operator Private Message",
+    "private_message_notification_desc" => "Notifies you when you receive correspondence from another operator via private message.",
+
+    /*
+     * 5.7.3
+     */
+    "solid"                     => "Solid",
+    "dashed"                    => "Dashed",
+    "dotted"                    => "Dotted",
+
+    /*
+     * 6.0.0
+     */
+    "bot"                       => "Bot",
+    "start_tls"                 => "Start TLS",
+    "shortcut_disabled"         => "Disabled",
+    "shortcut_edit"             => "Edit shortcut",
+    "shortcut_reset"            => "Reset to default",
+    "shortcut_press_key"        => "Press a key combination...",
+    "shortcut_already_in_use"   => "This shortcut is already in use by ':name'.",
+    "shortcut_invalid"          => "Invalid shortcut. Please try again.",
+    "shortcut_editor"           => "Text Editor",
+    "shortcut_editor_bold"      => "Bold",
+    "shortcut_editor_italic"    => "Italic",
+    "shortcut_editor_underline" => "Underline",
+    "shortcut_editor_link"      => "Insert link",
+    "shortcut_editor_strikethrough" => "Strikethrough",
+    "shortcut_editor_codesample" => "Insert code sample",
+    "shortcut_editor_blockquote" => "Insert block quote",
+    "shortcut_editor_numlist"   => "Insert numbered list",
+    "shortcut_editor_bullist"   => "Insert bullet list",
+    "shortcut_editor_outdent"   => "Decrease indent",
+    "shortcut_editor_indent"    => "Increase indent",
+    "shortcut_editor_removeformat" => "Remove formatting",
+    "shortcut_editor_canned_responses" => "Insert canned response",
+    "shortcut_editor_self_service" => "Insert self-service link",
+    "shortcut_editor_submit"    => "Submit form",
+    "shortcut_editor_superscript" => "Superscript",
+    "shortcut_editor_subscript" => "Subscript",
+    "shortcut_editor_paragraph" => "Paragraph",
+    "shortcut_editor_heading1"  => "Heading 1",
+    "shortcut_editor_heading2"  => "Heading 2",
+    "shortcut_editor_heading3"  => "Heading 3",
+    "shortcut_editor_heading4"  => "Heading 4",
+    "shortcut_editor_heading5"  => "Heading 5",
+    "shortcut_editor_heading6"  => "Heading 6",
+    // Activity Log Groups
+    "ticket_events"             => "Ticket Events",
+    "user_events"               => "User Events",
+    "organisation_events"       => "Organisation Events",
+    "email_events"              => "Email Events",
+    "system_events"             => "System Events",
+    "selfservice_events"        => "Self-Service Events",
+    "ip_events"                 => "IP Events",
+    "login_events"              => "Login Events",
+    "export_events"             => "Export Events",
+    "addon_events"              => "Addon Events",
+    "private_conversation_events" => "Private Conversation Events",
+    "import_events"             => "Import Events",
+    "background_job_events"     => "Background Job Events",
+    "user_profile"              => "Profile updates",
+    "user_organisation"         => "Organisation updates",
+    "user_groups"               => "Group membership changes",
+    "user_password"             => "Password changes",
+    "user_merge"                => "Merge events",
+    "email_mass"                => "Mass email events",
+    "email_sent"                => "Sent emails",
+    "misc_events"               => "Miscellaneous events",
+    "system_tasks"              => "Scheduled task events",
+    "system_jobs"               => "Background jobs events",
+    "system_items"              => "Created, updated & deleted records",
+    "selfservice_articles"      => "Article events",
+    "selfservice_comments"      => "Comment events",
+    "selfservice_feedback"      => "Feedback events",
+    "email_throttled"           => "For mange indgående mails fra bruger. Begrænsningen er :max_requests emails hver :decay_time minut.",
+    "debug_mode_desc"           => "Aktiver debug mode for at vise fejl, anvendes kun til debugging eller hvis instrueret af support. Fejl og andre brugbare logging beskeder er ellers gemt i applikations loggen, som kan downloades ved at gå til -> Logs -> Log File Manager.",
+    "debug_mode_warning"        => "Debug tilstand bør kun anvendes midlertidigt.",
+    "debug_mode_error"          => "App debug should not be enabled in production and will display errors to users, set APP_DEBUG to false. Use the debug mode option in the general settings instead.",
+
+    /*
+     * 6.0.2
+     */
+    "simpleauth_key_desc"       => "Nøglen der anvendes til vores single sign on option, minimum 16 karakterer.",
+
+    /*
+     * 6.1.0
+     */
+    "update_and_activate"       => "Update & Activate",
+    "purge_in_background"       => "The records will be purged in the background. This may take some time...",
+    "shortcut_minimise_form"    => "Minimise the active message form",
+    "token_generate_after_create" => "The token will be generated when the API token is saved.",
+    "change_token"              => "Changing the token will break any integrations using the previous token.",
+    "simpleauth_key_generate"   => "Generate Key",
+    "change_simpleauth_key"     => "Changing the key will break any single sign on integrations using the previous key.",
+    "view_matched_rule"         => "View matched rule",
 
 );

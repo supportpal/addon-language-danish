@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Uddrag",
     "associate_tag"             => "Associater artikel med et tag...",
     "associate_category"        => "Associater artikel med en kategori...",
-    "published_desc"            => "Definerer om artiklen kan vises offentligt. Hvis den ikke er publiceret kan den stadig vises via den direkte URL forudsat en af kategorierne er offentlige.",
     "registered_users_desc"     => "Aktiver for kun at vise artikler til brugere der er logget ind.",
 
     "comment_by"                => "Kommentar Af",
@@ -150,12 +149,31 @@ return array(
      */
     "type_protected_desc"       => "Aktiver for kun at vise indhold af denne type for brugere der er logget ind.",
     "article_feedback"          => "Artikel Feedback",
-    "frontend_icon_desc"        => "Vælg et <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regulært icon til visning på frontenden for den valgte type, du kan også søge efter et brugerdefineret ikon som ikke er inkluderet i listen (startende med 'fa-').",
     "comment_deleted"           => "Comment deleted",
 
     /*
      * 5.3.0
      */
     "in_reply_to"               => "in reply to",
+
+    /*
+     * 5.7.0
+     */
+    "comment_notification"      => "New Comment Posted",
+    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Definerer om artiklen kan vises offentligt. Hvis den ikke er publiceret kan den stadig vises via den direkte URL forudsat en af kategorierne er offentlige.",
+    "not_published"             => "Not Published",
+
+    /*
+     * 6.0.0
+     */
+    "frontend_icon_desc"        => "Vælg et <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regulært icon til visning på frontenden for den valgte type, du kan også søge efter et brugerdefineret ikon som ikke er inkluderet i listen (startende med 'fa-').",
+    "icon_book"                 => "Book",
+    "icon_download"             => "Download",
+    "icon_newspaper"            => "Newspaper",
 
 );

@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Gå tilbage til :page.",
 
-    "session_expired"       => "Din session er udløbet, log venligst ind igen.",
     "session_refresh"       => "Din session er udløbet, opdater venligst siden og prøv igen.",
 
     "general_error"         => "Der opstod en fejl. Forsøg venligst igen.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Forbudt",
 
     "not_logged_exception"  => "<strong>Ups! Noget gik galt.</strong><br />Underret din administrator hvis fejlen fortsætter med at opstå.",
-
-    "too_many_ticket_reqs"  => "Der er oprettet for mange ticket oprettelser for denne adresse. :email. Grænsen er :max på :decay minutes.",
 
     "not_operator"          => "Noget gik galt. Den valgte operatør er ikke gyldig, kontroller venligst at de tilhører en operatør gruppe og at gruppen har en associaceret rolle.",
 
@@ -167,5 +164,15 @@ return array(
      */
     "lock_timeout"          => "Lock Timeout",
     "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Din session er udløbet, log venligst ind igen.",
 
 );
