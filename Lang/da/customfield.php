@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Skal det brugerdefinerede felt udfyldes. Gældende for tjekbox, tjeklisten eller flere valgmuligheder vil det kræve at brugeren vælger mindst en mulighed.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** KRYPTERET **",
 );
